@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <form action="start-page.html">
+            <h2>Sign In</h2>
+            <div class="inputBox">
+                <input type="text" required>
+                <span>Username</span>
+                <i></i>
+            </div>
+            <div class="inputBox2">
+                <input type="password" required>
+                <span> EnterPassword</span>
+                <i></i>
+                <a href="./game.html">
+                    <div id="login">
+                        <input type="submit" value="Login">
+
+                    </div>
+                </a>
+                <div class="links">
+                    <a href="#">Forgot Password?</a>
+                    <a href="#">SignUp</a>
+                </div>
+
+
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
+<script>
+    var button = document.getElementById("login")
+    console.log("checerf")
+    button.addEventListener("click", () => {
+        window.location.href = "./start-page.html"
+    })
+
+</script>

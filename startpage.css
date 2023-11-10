@@ -1,0 +1,29 @@
+body{
+    background-color: violet;
+}
+#startScreen {
+    width: 560px;
+    height: 200px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 35%;
+    left: 35%;
+    right: 100px;
+    border-radius: 10rem;
+    background-color: rgb(43, 205, 226);
+    text-align: center;
+    border-bottom: 2px solid rgb(132, 197, 197);
+   
+}
+    #button {
+        cursor: pointer;
+        position: absolute;
+        left: 250px;
+        top: 140px;
+    }
+
+p{
+    position: relative;
+    top: 30px;
+    
+}

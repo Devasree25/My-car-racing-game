@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+   background-color: pink; 
+} 
+#game{
+    height: 500px;
+    width: 390px;
+    margin: 1rem auto;
+    position: relative;
+    top: 120px;
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.oDrTmnIrE_N-15BaXp4HmwHaFu&pid=Api&P=0&h=180");
+    background-size: contain;
+    overflow: hidden;
+}  
+ #bluecar{
+    height: 100px;
+    width: 130px;
+    background: none;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    animation: move 1s linear infinite;
+
+
+ }    
+    
+#bluecar img{
+    height: 100px;
+}
+@keyframes move {
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+}
+#greycar{
+    height: 100px;
+    width: 130px;
+    position: relative;
+    top: 250px;
+    left: 130px;
+    text-align: center;
+   
+
+}
+#greycar img{
+    height: 100px;
+}
+#result{
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+    margin: 1rem auto;
+    border-radius: 60px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+   display: none;
+   
+}
+#score{
+    font-size: medium;
+    color: green;
+}
+#btn{
+    padding: 1rem 6rem;
+    border-radius: 20px;
+    border: none;
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+#start{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+}
+#button{
+    position: relative;
+    top: 70px;
+    right: 240px;
+    border-radius: 1rem;
+    height: 50px;
+    width: 150px;
+}
+.timer{
+    position: relative;
+    left: 350px;
+    color: red;
+    font-size: 50px;
+    
+}
+@media (max-width:320px){
+    body{
+      color: blue;
+    }
+    h1{
+        color: blue;
+    }
+    h2{
+      color: aqua;
+    }
+    .flexspace-between{
+      height: 320px;
+      width: 400px;
+    }
+  }
+  #background{
+    width: 100%;
+  }
+
